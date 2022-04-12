@@ -1,10 +1,10 @@
 const display = document.getElementById("display")
 const plusButton = document.getElementById("plus-button")
 
-let count = 0
+let count = 1
 
 plusButton.onclick = function () {
-  count += 1
+  count *= 2
 
   display.textContent = count
 }
